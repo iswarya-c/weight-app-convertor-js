@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 70px;
+  font-family: Raleway;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+form input, #output .card {
+  width: 100%;
+  padding: 15px 12px;
+  text-align: left;
+  font-weight: 700;
+}
+
+#output .card p {
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+#output .card div {
+  font-family: 'Lato';
+  font-weight: normal;
+}
+
+form input {
+  margin: 13px 0;
+}
+
+#output .card {
+  margin-bottom: 6px;
+}
+
+#gram {
+  background-color: #1b7ae7;
+}
+
+#kg {
+  background-color: #4ca04c;
+}
+
+#oz {
+  background-color: #e95151;
+}
